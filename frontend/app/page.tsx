@@ -4,17 +4,19 @@ import Image from "next/image";
 import arrow from '../public/arrow.svg'
 import men from '../public/man.svg'
 import CardSection from "@/components/pageLevel/CardSection";
+import ProjectSection from "@/components/pageLevel/ProjectSection";
+import ContactSection from "@/components/pageLevel/ContactSection";
 
 
 export default function Home ()
 {
   return (
-    <div className="p-5">
+    <div className="p-5 gap-11">
       <div className="flex flex-row items-end justify-end p-4 gap-10">
-        <div>
+        <div className="cursor-pointer">
           Downlode CV
         </div>
-        <div className="p-1 bg-[#FFC9F0]">
+        <div className="p-1 bg-[#FFC9F0] cursor-pointer">
           Hire Me
         </div>
       </div>
@@ -28,17 +30,21 @@ export default function Home ()
                 DK
               </div>
             </div>
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-1 md:grid-cols-2">
               <TextFlipContainer words={ [ 'websites', 'services', 'products', 'systems', 'solutions' ] } prefixText="I develop modern" />
               <div>
                 I design, build, and deploy complete digital experiences—transforming ideas into powerful, live web solutions.
-                <GradientButton />
+                <GradientButton text="Hire me" />
               </div>
             </div>
           </div>
         </div>
       </div>
       <CardSection />
+      <br />
+      <ProjectSection />
+      <br />
+      <ContactSection />
     </div>
   );
 }

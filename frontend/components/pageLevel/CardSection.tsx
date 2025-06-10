@@ -17,13 +17,13 @@ const CardSection = () =>
                 <Image src={ arrow } alt="arrow" className='-rotate-90' />
             </div>
             <div className="flex justify-center">
-                <div className="grid grid-cols-3 gap-20">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-20">
                     <CardContainer color="#FFE68C" src={ pencile } className="-rotate-10"  >
                         <div className="text-2xl font-bold">
                             Develop Frontend and Backend
                         </div>
                     </CardContainer>
-                    <CardContainer color="#FFE68C" src={ eye } className="rotate-10"  >
+                    <CardContainer color="#FFC9F0" src={ eye } className="rotate-10"  >
                         <div className="text-2xl font-bold">
                             Integrate and Deploy Features
                         </div>
