@@ -4,7 +4,7 @@ import { StaticImport } from 'next/dist/shared/lib/get-img-props'
 
 interface CardContainerProps
 {
-    color: string
+    color?: string
     className?: string
     src?: string | StaticImport
     children: React.ReactNode

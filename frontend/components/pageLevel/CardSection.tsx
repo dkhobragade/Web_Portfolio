@@ -5,6 +5,7 @@ import pencile from '../../public/pencile.svg'
 import diamond from '../../public/diamond.svg'
 import arrow from '../../public/arrow.svg'
 import Image from 'next/image'
+import { BentoGrid, BentoGridItem } from '../ui/bento-grid'
 
 const CardSection = () =>
 {
@@ -23,7 +24,7 @@ const CardSection = () =>
                             Develop Frontend and Backend
                         </div>
                     </CardContainer>
-                    <CardContainer color="#FFC9F0" src={ eye } className="rotate-10"  >
+                    <CardContainer src={ eye } className="rotate-10 bg-[#4DA8DA]"  >
                         <div className="text-2xl font-bold">
                             Integrate and Deploy Features
                         </div>
