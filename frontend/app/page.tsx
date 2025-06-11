@@ -6,7 +6,6 @@ import men from '../public/man.svg'
 import CardSection from "@/components/pageLevel/CardSection";
 import ProjectSection from "@/components/pageLevel/ProjectSection";
 import ContactSection from "@/components/pageLevel/ContactSection";
-import { GlareCard } from "@/components/ui/glare-card";
 import WorkExp from "@/components/pageLevel/WorkExp";
 
 

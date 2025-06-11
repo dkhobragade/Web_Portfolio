@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --minify",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -14,7 +14,8 @@
     "next": "15.3.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "tailwind-merge": "^3.3.0"
+    "tailwind-merge": "^3.3.0",
+    "web_portfolio": "file:.."
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

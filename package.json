@@ -1,0 +1,21 @@
+{
+  "name": "web_portfolio",
+  "version": "1.0.0",
+  "description": "1. npm i motion clsx tailwind-merge",
+  "main": "index.js",
+  "scripts": {
+   "build":"npm install --prefix frontend && npm run build --prefix frontend",
+   "start": "npm run start --prefix frontend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkhobragade/Web_Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkhobragade/Web_Portfolio/issues"
+  },
+  "homepage": "https://github.com/dkhobragade/Web_Portfolio#readme"
+}

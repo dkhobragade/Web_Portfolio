@@ -5,7 +5,6 @@ import pencile from '../../public/pencile.svg'
 import diamond from '../../public/diamond.svg'
 import arrow from '../../public/arrow.svg'
 import Image from 'next/image'
-import { BentoGrid, BentoGridItem } from '../ui/bento-grid'
 
 const CardSection = () =>
 {

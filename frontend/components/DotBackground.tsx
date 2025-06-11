@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 
 interface BgProps
 {
-    children: any
+    children: React.ReactNode
 }
 
 export function DotBackground ( props: BgProps )
